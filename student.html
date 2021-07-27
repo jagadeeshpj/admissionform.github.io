@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Student Admission Form</title>
+ 	<link rel="stylesheet" href="styles.css" type="text/css" >
+</head>
+ <script>
+        function takevalue()
+        {
+            var fname=document.getElementById("fname").value;
+            var lname=document.getElementById("lname").value;
+            var email=document.getElementById("mail").value;
+            var pwd=document.getElementById("pwd").value;
+            var repwd=document.getElementById("repwd").value;
+            var dob=document.getElementById("dob").value;
+            var number=document.getElementById("no").value;
+            var gender=document.getElementById("gender").value;
+            var address=document.getElementById("ad").value;
+            var state=document.getElementById("state").value;
+            var city=document.getElementById("city").value;
+            var country=document.getElementById("country").value;
+            var code=document.getElementById("code").value;
+            var course=document.getElementById("course").value;
+            document.write("YOUR INFO : <BR>"+"FIRST NAME : "+fname+"<br>");
+            document.write("SECOND NAME : "+lname+"<br>");
+            document.write("EMAIL : "+email+"<br>");
+            document.write("PASSWORD : "+pwd+"<br>");
+            document.write("re-password : "+repwd+"<br>");
+            document.write("DOB : "+dob+"<br>");
+            document.write("PHONE NUMBER : "+number+"<br>");
+            document.write("GENDER : "+gender+"<br>");
+            document.write("ADDRESS : "+address+"<br>");
+            document.write("STATE : "+state+"<br>");
+            document.write("CITY : "+city+"<br>");
+            document.write("COUNTRY : "+country+"<br>");
+            document.write("CODE : "+code+"<br>");
+            document.write(" COURSE: "+course+"<br>");
+           
+
+           
+
+        }
+        </script>
+	<body>
+
+
+		<h1><a href="logo.svg">
+	<img src="images/logo.svg" alt="MY LOGO"  align="middle" width="25%">
+</a></h1>
+		
+		
+        <ul class="admission"><span class="admission" >SATHYABAMA ADMISSIONS 2021</span></ul>
+   
+
+       <marquee scrollamount="10" direction="left" height="50" width="1000">
+       <h4>*WELCOME TO SATHYBAMA ADMISSION PORTAL*</h4>
+  		 </marquee>
+
+
+     <br>
+     <br>
+  <div class="admission">
+		<table  align="center" cellpadding="10">
+			<form onsubmit="takevalue()">
+			<tr>
+            <th bgcolor="green">New Admission? Apply Online</th>
+           
+            </tr>
+			<tr>
+				<td>First Name : </td>
+				<td><input type="text" id="fname" name="name" 
+				placeholder="Enter ur First name"></td>
+			</tr>
+			<tr>
+				<td>Last Name :</td>
+				<td><input type="text" id="lname" name="name" 
+				placeholder="Enter ur Last name"></td>
+			</tr>
+			<tr>
+				<td>Email :</td>
+				<td><input type="email" id="mail" name="email" 
+				placeholder="Enter ur Email"></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" id="pwd" name="pass"
+				placeholder="Enter ur password"></td>
+			</tr>
+			<tr>
+				<td>Re-Ener Password :</td>
+				<td><input type="password" id="repwd" name="pass"
+				placeholder="Re-Enter ur password"></td>
+			</tr>
+			<tr>
+				<td>Date of Birth :</td> 
+				<td><input type="date" id="dob" name="DOB"></td>
+			</tr>
+			<tr>
+				<td>Mobile Number :</td>
+				<td><input type="text" id="no" name="MNUM" 
+				placeholder="Enter ur number"></td>
+			</tr>
+			<tr>
+				
+				<td for="Gender">Gender :</td>
+				<td>
+ 				<select id="gender" name="gender">
+ 				<option value="male">Male</option>
+ 				<option value="female">Fe-Male</option>
+ 				<option value="other">Other</option>
+			</tr>
+			<tr>
+				<td>Address :</td>
+				<td><textarea rows="6" cols="25" id="ad"
+				placeholder="Enter ur Address"></textarea></td>
+			</tr>
+			<tr>
+				<td>State :</td>
+				<td><input type="text" id="state" name="state"
+				placeholder="Enter ur State"></td>
+			</tr>
+			<tr>
+				<td>City :</td>
+				<td><input type="text" id="city" name="city" 
+				placeholder="Enter ur City"></td>
+			</tr>
+			<tr>
+				<td>Country :</td> 
+				<td><input type="text" id="country" name="state" 
+				placeholder="Enter ur country"></td>
+			</tr>
+			<tr>
+				<td>Pincode :</td>
+				<td><input type="text" id="code" name="number" 
+				placeholder="Enter ur pincode"></td>
+			</tr>
+			<tr>
+				<td for="course">Course Applied For :</td>
+				<td>
+ 				<select id="course" name="Course Applied For :">
+ 				<option value="Select">Select</option>
+ 				<option value="Computer Science Engineering(CSE)">Computer Science Engineering(CSE)</option>
+ 				<option value="Aeronautical Engineering">Aeronautical Engineering</option>
+ 				<option value="Mechanical Engineering">Mechanical Engineering</option>
+ 				<option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+ 				<option value="Biotech Engineering">Biotech Engineering</option>
+ 				<option value="Automobile Engineering">Automobile Engineering</option>
+ 				<option value="Electrical and Electronics Engineering">Electrical and Electronics Engineering</option>
+				</select>
+				</td>
+
+			</tr>
+			<tr>
+				<td align="center" colspan="2">
+				<input  type="submit"> 
+				</td>
+			</tr>
+		</form>
+		</table>
+</div>
+</head>
+
+
+  	</body>
+</html>
+
+
+
+
+
+
