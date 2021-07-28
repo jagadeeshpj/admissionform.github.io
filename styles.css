@@ -1,6 +1,7 @@
 /*web page background
 we have used bg size : cover bcoz while decreasing page size it never decrease*/
-body {
+
+body  {
 	
 	background-image: url("images/ADMIN_2.jpg");
 	background-size: cover ;
@@ -9,7 +10,7 @@ body {
 	
  } 
 /* for header admsion 2021 */ 
-ul {
+ul  {
     
 	display: block;
 	margin: 8px;
@@ -27,7 +28,7 @@ ul {
 }
 /*logo of the page ,setting color*/
 
-h1{
+h1 {
 	
 	display: block;
 	margin: 8px;
@@ -67,3 +68,84 @@ h4 {
 	letter-spacing: 0.2em;
 	font-family: Georgia, Arial and Helvetica;
 }
+
+
+
+
+#thanks{
+  text-align: center;
+  font-size:45px;
+  font-weight: bold;
+  background-color: lightgrey;
+  width: 300px;
+  height:100px solid green;
+  margin-left:42% ;
+  
+}
+
+#back{
+  margin-left:42% ;
+  font-size: 30px;
+  background-color:lightcyan;
+  width:541px;
+ text-align: center;
+ margin-right:70%;
+ margin-left: 35%;
+}
+
+#button{
+   margin: 0;
+  position: absolute;
+  margin-left: 44%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 25px;
+  width: auto;
+}
+ #footer{
+  position: relative;
+  left: 0;
+  bottom: 0%;
+  margin-bottom: 1%;
+  height: FOOTER_HEIGHT;
+  width: 100%;
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+}
+/*
+
+ <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">MY website</div>
+         <p>I have created the Registration of college admission portal using  HTML,
+         CSS, and also JavaScript along with creative CSS Animations and Effects.</p>
+       </div>
+       <div class="middle">
+         <div class="topic">Contact us</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+91 9573712535</a>
+         </div>
+         <div class="email">
+           <a href="#"><i class="fas fa-envelope"></i>Jagadeeshpj2001@gmail.com</a>
+         </div>
+       </div>
+     </div>
+     
+     <div class="right box">
+         <div class="media-icons">
+           <a href="https://www.instagram.com/jagadeesh2001/"><i class="fab fa-instagram"></i></a>
+           <a href="https://www.linkedin.com/in/p-jagadeesh-22923b18b"><i class="fab fa-linkedin-in"></i></a>
+         </div>
+       </form>
+     </div>
+   </div>
+   <div class="bottom">
+     <p>Copyright © 2020  All rights reserved</p>
+   </div>
+ </footer>
+
+    </body>
+</html>
+*/
