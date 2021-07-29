@@ -2,7 +2,7 @@
 we have used bg size : cover bcoz while decreasing page size it never decrease*/
 
 body{
-  width: 90%; margin: auto; min-width: 600px; max-width: 2000px
+  width:100%;
 }
 
 body  {
