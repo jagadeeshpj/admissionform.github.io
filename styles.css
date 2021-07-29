@@ -1,6 +1,10 @@
 /*web page background
 we have used bg size : cover bcoz while decreasing page size it never decrease*/
 
+body{
+  width: 90%; margin: auto; min-width: 600px; max-width: 2000px
+}
+
 body  {
 	
 	background-image: url("images/ADMIN_2.jpg");
