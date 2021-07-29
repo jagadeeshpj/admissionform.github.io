@@ -28,6 +28,15 @@ ul
     background-color:  #c58c85;
    word-spacing: 0.5em;
    letter-spacing: 0.1em;
+   ul {
+  font-size: 17px;
+}
+@media (max-width: 900px) {
+  ul { font-size: 15px; }
+}
+@media (max-width: 400px) {
+  ul { font-size: 13px; }
+}
     
     
 }
