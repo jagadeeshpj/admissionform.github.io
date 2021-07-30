@@ -1,26 +1,78 @@
 /*web page background
 we have used bg size : cover bcoz while decreasing page size it never decrease*/
-
-body{
-  width:100%;
+ 
+ 
+body {
+    font-size: calc(0.5em + 1vw);
 }
 
-body{
-	
+body  {
+
+  
 	background-image: url("images/ADMIN_2.jpg");
 	background-size: cover ;
 	background-repeat:no-repeat;
 	background-attachment: fixed;
-	
+
+
  } 
+
+body{
+
+ margin-top: -24px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+ border-top: 0px;
+ height: 100%;
+}
+
+.logo{
+  
+  display: block;
+  width: 50%;
+ max-width: 100%;
+ height: auto;
+  background-color: #9e1c3f;
+  padding-left: 25%;
+  padding-right: 36%;
+  margin-top: 0px;
+  border-top: 0px;
+  }
+  .logo{
+    text-align: center;
+
+  }
+  .logo {
+    width: 406px;
+}
+
+
+
+.scroll
+{
+  border-style: solid;
+  border-width: 2px
+
+  
+}
+.scroll{
+  color: white;
+  background-color: #244265;
+
+}
+.scroll{
+   margin-top: 1.2%;
+   margin-bottom: 0%;
+}
 /* for header admsion 2021 */ 
-ul 
+ul  
 {
     
 	display: block;
-	margin: 8px;
+	margin: auto;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1.2em;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.5;
     color: #f00;
@@ -28,46 +80,14 @@ ul
     background-color:  #c58c85;
    word-spacing: 0.5em;
    letter-spacing: 0.1em;
- }
+    font-size-adjust: 80% ;
+    border-style: solid;
+  border-width: 2px; 
+}
 /*logo of the page ,setting color*/
 
-h1 {
-	
-	display: block;
-	margin: 8px;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: ##f00;
-    text-align: center;
-    background-color: #9e1c3f;
-    
- }
-marquee{
-    margin: 0 auto;
-    white-space: nowrap;
-    overflow: hidden;
-    position: absolute;
-    z-index: 1;
-    font-weight: bold;
- 
-}
-marquee{
-  display: inline-block;
-    padding-left: 75%;
-    animation: marquee-keywords 25s linear infinite;
-    color: #faa2b0 !important;
-    text-transform: uppercase;
-    font-size: 20px;
-    letter-spacing: 0.2em;
-    font-family: var(--heading-font-family);
-   
 
- 
-}
-
-/*for application table */
+ /*for application table */
 
 table {
 	color: white; 
@@ -76,7 +96,7 @@ table {
 	font-size: 20px; 
 	font-family: serif; 
 	padding: 5px; 
-	border: 10px solid white; 
+	border: 5px solid white; 
 	text-align: -webkit-center
 	}
 
@@ -129,15 +149,17 @@ h4 {
   width: auto;
 }
  #footer{
-  position: relative;
-  left: 0;
-  bottom: 0%;
-  margin-bottom: 1%;
-  height: FOOTER_HEIGHT;
+  position: absolute;
   width: 100%;
   background-color: lightseagreen;
   color: white;
-  text-align: center;
+  text-align:center ;
+  margin-bottom: 0px;
+  margin-left: -3px;
+  padding-right: 3px;
+  line-height: 0.7;
+
+
 }
 /*
 
@@ -174,46 +196,4 @@ h4 {
 
     </body>
 </html>
-
-
-
-<script>
-        function takevalue()
-        {
-            var fname=document.getElementById("fname").value;
-            var lname=document.getElementById("lname").value;
-            var email=document.getElementById("mail").value;
-            var pwd=document.getElementById("pwd").value;
-            var repwd=document.getElementById("repwd").value;
-            var dob=document.getElementById("dob").value;
-            var number=document.getElementById("no").value;
-            var gender=document.getElementById("gender").value;
-            var address=document.getElementById("ad").value;
-            var state=document.getElementById("state").value;
-            var city=document.getElementById("city").value;
-            var country=document.getElementById("country").value;
-            var code=document.getElementById("code").value;
-            var course=document.getElementById("course").value;
-            document.write("YOUR INFO : <BR>"+"FIRST NAME : "+fname+"<br>");
-            document.write("SECOND NAME : "+lname+"<br>");
-            document.write("EMAIL : "+email+"<br>");
-            document.write("PASSWORD : "+pwd+"<br>");
-            document.write("re-password : "+repwd+"<br>");
-            document.write("DOB : "+dob+"<br>");
-            document.write("PHONE NUMBER : "+number+"<br>");
-            document.write("GENDER : "+gender+"<br>");
-            document.write("ADDRESS : "+address+"<br>");
-            document.write("STATE : "+state+"<br>");
-            document.write("CITY : "+city+"<br>");
-            document.write("COUNTRY : "+country+"<br>");
-            document.write("CODE : "+code+"<br>");
-            document.write(" COURSE: "+course+"<br>");
-           
-
-           
-
-        }
-        </script> 
-    
-
 */
